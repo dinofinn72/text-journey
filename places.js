@@ -71,7 +71,7 @@ var places = {
         arriveMessage: `You are in the city square`,
         description: `You are in the town square. It is bustling with people all here to see a heretic imprisoned in stokes. Alongside the other buldings There is a smithy and gaol, there are two pathes leading out of the square, an alley between two of the more unassuming buldings and a large street`,
         items: [],
-        npcs: [],
+        npcs: [npcs.heretic],
         connections: {
             "through gate": "cityGate",
             "inside gaol": "gaol",
