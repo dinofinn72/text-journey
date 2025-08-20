@@ -1,7 +1,7 @@
 var insanityThresholds = [20, 50];
 
-var playLocation = places.apothecary;
-var inventory = [items.lithium, items.cactus, items.meat, items.leeches, items["sledge hammer"], items.shovel, items["metal detector"], items["cell key"], items.tea, items["miniature shipwreck"], items["fuckload of money"]];
+var playLocation = places.cornField;
+var inventory = [items.lithium];
 var insanity = 0;
 
 var app = new ConsoleApp({
@@ -68,7 +68,7 @@ var app = new ConsoleApp({
             } else {
                 removeFromArray(playLocation.items, item);
                 inventory.push(item);
-                app.println(`You obtained ` + name);
+                app.println(`You obtained ${item.name}.`);
             }
         } else if (text.startsWith(`talk to `)) {
             var npcName = text.substring(8);
@@ -87,7 +87,7 @@ var app = new ConsoleApp({
         } else {
             var action = actions[text];
             if (action === undefined) {
-                app.println(`I DONT UNDERSTAND.`);
+                app.println(`I DON'T UNDERSTAND.`);
             } else if (!action.allowMultiple && action.beenDone) {
                 app.println(action.ifAlreadyDone);
             } else if (action.items !== undefined && !action.items.every(item => hasItem(item))) {
@@ -105,5 +105,5 @@ var app = new ConsoleApp({
 });
 //conshusnustou
 app.println(`"You! You're finally awake, you were trying to cross the corn field."`);
-app.println("As you fully regain consciousness you realise that the person talking to you was corn and you feel mildly ashamed.");
-app.println(`"You should find some blood thinner soon", you think to yourself.`);
+app.println("As you fully regain consciousness, you realise that the person talking to you was corn and you feel mildly ashamed.");
+app.println(`"You should find some blood thinners soon", you think to yourself.`);

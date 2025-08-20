@@ -1,22 +1,22 @@
 var items = {
     lithium: {
         name: `lithium`,
-        inspectDescription: `Helps with the visions`,
+        inspectDescription: `Helps with the visions.`,
     },
     shovel: {
         name: `a shovel`,
-        inspectDescription: `An old shovel`,
+        inspectDescription: `An old shovel.`,
         lookDescription: undefined,
     },
     corpse: {
         name: `a corpse`,
         inspectDescription: `Morally dubious bargaining chip.`,
-        lookDescription: `a particulary well presserved corpse`
+        lookDescription: `a particulary well-preserved corpse`
     },
     cactus: {
         name: `a cactus`,
         inspectDescription: `Small cactus (small (cactus)).`,
-        lookDescription: `a small, potted cactus on the windowsill`
+        lookDescription: `a small potted cactus on the windowsill`
     },
     knife: {
         name: `a knife`,
@@ -36,8 +36,8 @@ var items = {
     },
     "tray of food": {
         name: `a tray of food`,
-        inspectDescription: `A tray of prison food, it doesn't look appetising... apart from the potatoes.`,
-        lookDescription: `a tray of food, next to the bars it is untouched... except for the potatoes`,
+        inspectDescription: `A tray of prison food. It doesn't look appetising... apart from the potatoes.`,
+        lookDescription: `a tray of food next to the bars (untouched... except for the potatoes)`,
     },
     leeches: {
         name: `a jar of leeches`,
@@ -68,19 +68,19 @@ var items = {
     },
     binoculars: {
         name: `binoculars`,
-        inspectDescription: `The old-fashionedness of these binoculars is up to the players interpretation, there is a coin slot on the side.`,
+        inspectDescription: `The old-fashionedness of these binoculars is up to the player's interpretation. There is a coin slot on the side.`,
         lookDescription: `an old-fashioned pair of binoculars attached to the railing`,
         isNailedDown: true
     },
     lockbox: {
         name: `a lockbox`,
-        inspectDescription: `A rusty lockbox`,
+        inspectDescription: `A rusty lockbox.`,
         lookDescription: `a rusty lockbox among the corn`,
         isNailedDown: true
     },
     "iron bars": {
         name: `iron bars`,
-        inspectDescription: `8.627 iron bars`,
+        inspectDescription: `8.627 iron bars.`,
         lookDescription: undefined
     },
     tea: {
@@ -91,14 +91,14 @@ var items = {
     },
     sign: {
         name: `a sign`,
-        inspectDescription: `"Sorry we are out of raw materials if you have any to spare i will buy them for a very fair rate."`,
+        inspectDescription: `A sign, which reads: "Sorry, we are out of raw materials. If you have any to spare, I will buy them for a very fair rate."`,
         lookDescription: `a sign atop the counter`,
         isNailedDown: true
     },
-    "sledge hammer": {
-        name: `sledge hammer`,
-        inspectDescription: `A very mediocre sledge hammer.`,
-        lookDescription: `an old sledge hammer leaning against the wall`
+    "sledgehammer": {
+        name: `a sledgehammer`,
+        inspectDescription: `A very mediocre sledgehammer.`,
+        lookDescription: `an old sledgehammer leaning against the wall`
     },
     safe: {
         name: `a safe`,
@@ -108,70 +108,71 @@ var items = {
     },
     grog: {
         name: `grog`,
-        inspectDescription: `you look into the mug and wonder what it's made of, a very fast voice promptly says: "ingredients may include; kerosene, propylene glycol, sulphuric acid, artifical sweeteners, red dye no2, rum, acetone, battery acid, scumm, axle grease, and/or pepperoni."`,
-        lookDescription: `a particulary reinforced barrel marked grog behind the counter. It is leaking.`,
+        inspectDescription: `You look into the mug, and wonder what it's made of. A very fast voice promptly says: "ingredients may include: kerosene, propylene glycol, sulphuric acid, artifical sweeteners, red dye no. 2, rum, acetone, battery acid, scumm, axle grease, and/or pepperoni."`,
+        lookDescription: `a particulary reinforced barrel marked 'grog' behind the counter (it is leaking)`,
         isNailedDown: true
     },
     "safe key": {
         name: `a safe key`,
-        inspectDescription: `an iron key wering a bullet proof vest`,
+        inspectDescription: `An iron key wearing a bullet proof vest.`,
         lookDescription: `key in cheese`,
     },
     "miniature shipwreck": {
         name: `a miniature shipwreck`,
-        inspectDescription: `A miniature shipwreck in multiple pieces connected by an unseen force. There is a marking of the apothecary's logo on one of the pieces next to a name plate the reads: "HMS tax expense".`,
+        inspectDescription: `A miniature shipwreck, in multiple pieces held together by an unseen force. There is a marking of the apothecary's logo on one of the pieces. The name plate reads: "HMS tax expense".`,
         lookDescription: `a miniature shipwreck in the safe`
     },
     "gaol key": {
         name: `a gaol key`,
-        inspectDescription: `not found in cell, opens cell, no perticular aroma.`,
-        lookDescription: `a key on a pedistal in the center of the room`,
+        inspectDescription: `Not found in cell; opens cell. No particular aroma.`,
+        lookDescription: `a key on a pedestal in the centre of the room`,
         isNailedDown: true,
-        nailedText: `you go to take the key but the apothecary stops you and says: "i said no touching." *comprehensobal scheething* before going back to his patrol.`
+        nailedText: `You go to take the key, but the apothecary stops you and says: "I said no touching!" They seeth comprehensibly, before returning to their patrol.`
     },
     "glass bottle": {
         name: `a glass bottle`,
-        inspectDescription: `an extrodanaryly fragile glass bottle`,
-        lookDescription: `an out of place glass bottle on the floor`
+        inspectDescription: `An extraordinarily fragile glass bottle.`,
+        lookDescription: `an out-of-place glass bottle on the floor`,
+        pickUpNeeded: true,
     },
     "blood thinners": {
         name: `blood thinners`,
-        inspectDescription: `an extremly rusty and stained can it is labeled paint thiners but the word paint has been crossed out with a sharpy, and "blood" has been ritten above it`,
-        lookDescription: `a can of blood thiners on the shelf`
+        inspectDescription: `An extremly rusty, stained can. It is labelled 'paint thinners', but the word 'paint' has been crossed out with a Sharpie, and 'blood' has been written above it.`,
+        lookDescription: `a can of blood thinners on the shelf`
     },
     sack: {
         name: `a sack`,
-        inspectDescription: `an unusualy heavy sack, you dont know what is inside of it`,
-        lookDescription: `a large sack in the corner of the cell.`,
+        inspectDescription: `An unusually heavy sack; you dont know what is inside of it.`,
+        lookDescription: `a large sack in the corner of the cell`,
         isNailedDown: true,
-        nailedText: `you try and reach through the bars but you are not long enough.`
+        nailedText: `You try to reach through the bars, but you are not long enough.`
     },
     "fuckload of money": {
         name: `a fuckload of money`,
-        inspectDescription: `a ludicrous amount of varius currencys.`,
-        lookDescription: `moner`
+        inspectDescription: `A ludicrous amount of various currencies.`,
+        lookDescription: `money`
     }
 };
 
 var hallucinatableItems = [
-    'a seven foot tall plastic flamingo',
+    'a seven-foot-tall plastic flamingo',
     `a Gromit mug`,
     `a pile of teeth`,
     `Blorganhorgan`,
     `a cubic meter of gold`,
-    `T Posing Jim half cliped into the floor`,
+    `T-Posing Jim (half clipped into the floor)`,
     `the holy hand grenade`,
     `CHEESE`,
-    `a nailed down nail`,
-    `a non nailed down railroad spike`,
+    `a nailed-down nail`,
+    `a non-nailed-down railroad spike`,
     `lithium`,
-    `real bedrock not clickbait`,
+    `real bedrock (not clickbait)`,
     `the one piece`,
-    `lemon`,
+    `a lemon`,
     `a money laundering cat`,
     `a sad clown`,
     `a pigeon (you suspect it's not real)`,
     `a pigeon (you suspect it's real)`,
     `a pigeon (it may be real)`,
-    `a black chihuahua`
+    `a black chihuahua`,
 ];
